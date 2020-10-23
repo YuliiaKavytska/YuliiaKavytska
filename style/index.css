@@ -1,0 +1,79 @@
+.head {
+  padding: 167px 0px 0px 0px;
+  min-height: 695px;
+  background: url(../images/main.jpg) 0 0 / cover no-repeat;
+}
+.title {
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+.memories {
+  padding: 30px 0px 35px 0px;
+}
+.memory__title {
+  color: #231b80;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 0px 7px 10px rgba(42, 123, 214, 1);
+  margin: 0px 0px 30px 0px;
+}
+.memory__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  margin: 0 15px;
+  padding: 10px;
+}
+
+.memory__cards .card .image {
+  height: 200px;
+  margin: 0px 0px 10px 0px;
+}
+.memory__cards .card:first-child div {
+  background: url(../images/1.jpg) center/ cover no-repeat;
+}
+.memory__cards .card:nth-child(2) div {
+  background: url(../images/2.jpg) center/ cover no-repeat;
+}
+.memory__cards .card:nth-child(3) div {
+  background: url(../images/3.jpg) center/ cover no-repeat;
+}
+.memory__cards .card:last-child div {
+  background: url(../images/4.jpg) center/ cover no-repeat;
+}
+.card p {
+  margin: 0px 0px 10px 0px;
+}
+.also-memory {
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.also-memory .image {
+  height: 200px;
+  margin: 0px 20px;
+  width: 100%;
+}
+.also-memory .image:first-child {
+  background: url(../images/5.jpg) center/ cover no-repeat;
+}
+.also-memory .image:last-child {
+  background: url(../images/6.jpg) center/ cover no-repeat;
+}
+
+footer {
+  align-items: center;
+  font-size: 16px;
+}
+footer .info {
+  margin: 0px 15px 0px 0px;
+}
+footer .info div:first-child {
+  margin: 0px 0px 8px 0px;
+}
+
+
