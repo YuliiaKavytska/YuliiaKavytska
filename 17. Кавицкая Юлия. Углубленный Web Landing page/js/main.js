@@ -11,7 +11,6 @@ burger.onclick = function(e){
 	}
 }
 window.onresize = function () {
-	console.log(window.screen.width);
 	if(window.screen.width > 768 ){
 		menu.style.opacity = "1";
 	}else{
